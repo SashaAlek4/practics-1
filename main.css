@@ -4,10 +4,18 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1,h2,h3 {
+    font-family: 'Abril Fatface', serif;
+}
+
 .container {
-    background-color: rgba(0, 0, 0, 0);
     width: 660px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .header {
@@ -19,11 +27,71 @@
 }
 
 .first {
-    background-color: rgb(127, 204, 255);
+    background-color: #C7E3E9;
+}
+
+.first .container {
+    text-align: center;
+    padding: 130px 0;
 }
 
 .first h1 {
     text-align: center;
+    font-size: 60px;
+    color: #040062;
+    font-weight: 400;
 }
+
+.first h1 .big {
+    font-size: 80px;
+}
+
+.first h1 .large {
+    font-size: 110px;   
+}
+
+.first h1 + img {
+    margin-top: 72px;    
+}
+
+.access {
+    padding: 32px 0;
+}
+
+.access .container {
+    text-align: center;
+}
+
+.access button {
+    background-color: #0013FF;
+    color: white;
+    font-weight: 700;
+    border-radius:20px;
+    padding: 10px 20px;
+    border: 1px solid #DCE0E9;
+    font-size:16px;
+    font-family:'Ubuntu', sans-serif;;
+}
+
+.content .background {
+    background-color: #FFD2CB;
+    text-align: center;
+    padding: 70px 0;
+}
+
+.content H2 {
+    color: #040062;
+    font-weight: 400;
+    font-size: 48px;
+}
+
+.content p {
+    color: #6D758D;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+
+
 
 
